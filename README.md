@@ -43,4 +43,19 @@
 <p><abbr title="World Wide Web">WWW</abbr></p> 
 <p>Так выглядит <tt>моноширинный текст</tt>.</p>
 </body>
+p { 
+  text-indent: 2.5em;   
+  margin-top: 0.2em;     
+  margin-bottom: 0.2em;  
+}
+p.letter:first-letter { 
+  font-weight: bold; 
+  font-size: 2em;        
+  color: red;            
+}
+span.accent { 
+  background: #bfffbf;   
+  color: blue;           
+  font-weight: bold;     
+}
 </html>
